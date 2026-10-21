@@ -1,30 +1,30 @@
 class Larecode < Formula
   desc "Provider-neutral AI coding agent for the terminal"
   homepage "https://github.com/rsyyd/larecode"
-  version "0.1.1"
+  version "0.2.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/rsyyd/larecode/releases/download/v0.1.1/larecode-darwin-arm64"
-      sha256 "0a430fe8c008637e406f0a494553b55c8bab19a6659b76c10335998638e98748"
+      url "https://github.com/rsyyd/larecode/releases/download/v0.2.0/larecode-darwin-arm64"
+      sha256 "8a5bf0f8d14b28d492e4d48edfb05c2d463dc9f29bfdda7e8cd6595122251e0f"
     end
 
     on_intel do
-      url "https://github.com/rsyyd/larecode/releases/download/v0.1.1/larecode-darwin-x64"
-      sha256 "82c668bb73613d50237331e6f57c4e07bd81bc09ad993e41ab8f30ee268de856"
+      url "https://github.com/rsyyd/larecode/releases/download/v0.2.0/larecode-darwin-x64"
+      sha256 "cc2213a91cc596847adf035c10a77d3fb5101a207494c4335b7b5e3499963960"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/rsyyd/larecode/releases/download/v0.1.1/larecode-linux-arm64"
-      sha256 "30ebf5773f0bfe8b62565119c0d17cc8a4c84a28f08c5368b14ff0dc304b0cc3"
+      url "https://github.com/rsyyd/larecode/releases/download/v0.2.0/larecode-linux-arm64"
+      sha256 "3b9dad37b64129c6177735521f25a8f3e8942045ea233891543ac1a5e888ee78"
     end
 
     on_intel do
-      url "https://github.com/rsyyd/larecode/releases/download/v0.1.1/larecode-linux-x64"
-      sha256 "dc728dee0118b5ca640e62d937611e2c90ddf70e59944b8d90cd9c9b013ebf5b"
+      url "https://github.com/rsyyd/larecode/releases/download/v0.2.0/larecode-linux-x64"
+      sha256 "fa87d5d5b1c5fde96d56d2916dcc2e699d60f75a0588add60eefb0fded698c90"
     end
   end
 
